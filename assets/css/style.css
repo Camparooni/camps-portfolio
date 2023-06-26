@@ -64,7 +64,7 @@ img {
   padding: 0;
   border: 0.5em solid var(--border);
   border-radius: 20%;
-  margin: 100px 100px 0px 200px;
+  margin: 100px 100px 0px 30px;
   
 }
 
@@ -138,7 +138,10 @@ nav a:hover::before {
   margin: 50px;
   
 }
-
+.div-flex img {
+  height: 400px;
+  width: 350px;
+}
 .intro-header {
   flex: 0 0 10%;
 }
@@ -186,7 +189,7 @@ nav a:hover::before {
   display: flex;
   flex-direction: row;
 
-  /* justify-content: space-between; */
+  justify-content: center;
 
 }
 .pic2 {
@@ -248,10 +251,79 @@ nav a:hover::before {
   
 }
 
+@media screen and (max-width: 1350px) {
+  body,
+  nav {
+    flex-direction: column;
+  }
+  .div-flex {
+    display: flex;
+    flex-direction: column;
+  }
+  .intro-header h1 {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .intro-header h2 {
+    margin-left: 33%;
+  }
+  .intro p {
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    margin-top: 25px;
+  }
+  #portrait {
+    margin-left: auto !important;
+    margin-right: auto !important;
+    width: 60%;
+    margin-top: 16px;
+  }
+  .main-pic {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .work h2{
+    margin-left: auto;
+    margin-right: auto;
+    border: none;
+  }
+  .pic-container .small-pics {
+    
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+  .contact h2 {
+    margin-left: auto;
+    margin-right: auto;
+    border: none;
+    margin-bottom: 10px;
+  }
+  .contact ul {
+    margin-left: auto;
+    margin-right: auto;
+    flex-direction: column;
+    margin-top: 15px;
+  }
+  .contact ul li {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
 @media screen and (max-width: 768px) {
   body,
   nav {
     flex-direction: column;
+  }
+  .div-flex {
+    display: flex;
+    flex-direction: column;
+  }
+  .intro-header h1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
   }
 } 
 
@@ -262,5 +334,9 @@ nav a:hover::before {
   .intro {
     flex-direction: column;
 
+  }
+  .intro-header h1 span {
+    margin-left: auto;
+    margin-right: auto;
   }
 }
