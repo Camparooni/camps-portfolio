@@ -45,6 +45,7 @@ header {
 .sub-title {
   font-size: 30px;
   margin: 55px;
+  background-color: black;
   color: var(--title-fonts)
 }
 
@@ -133,7 +134,7 @@ nav a:hover::before {
 }
 
 .div-flex h2 {
-  border-right: 6px solid black;
+  border-right: 4px solid black;
   flex: 0 0 8%;
   margin: 50px;
   
@@ -153,6 +154,7 @@ nav a:hover::before {
 
 #section-projects {
   font-size: 35px;
+  background-color: var(--title-fonts);
 }
 
 .project-titles {
@@ -161,12 +163,12 @@ nav a:hover::before {
 
 .main-pic {
   background-image: url("./horiseon-mod.PNG");
-  height: 39vh;
-  width: 29vw;
+  height: 35vh;
+  width: 20vw;
   background-size: cover;
   display: block;
   border: 0.5em solid var(--border);
-  border-radius: 0%;
+  border-radius: 5%;
 
 }
 
@@ -188,7 +190,6 @@ nav a:hover::before {
 .small-pics {
   display: flex;
   flex-direction: row;
-
   justify-content: center;
 
 }
@@ -200,6 +201,7 @@ nav a:hover::before {
   display: block;
   margin: 15px;
   border: 0.5em solid var(--border);
+  border-radius: 5%;
   
 }
 .pic3 {
@@ -210,6 +212,7 @@ nav a:hover::before {
   display: block;
   margin: 15px;
   border: 0.5em solid var(--border);
+  border-radius: 5%;
   
 }
 /* .pic4 {
