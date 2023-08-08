@@ -162,7 +162,7 @@ nav a:hover::before {
 }
 
 .main-pic {
-  background-image: url("./horiseon-mod.PNG");
+  background-image: url("./dndice-roller.png");
   height: 35vh;
   width: 20vw;
   background-size: cover;
@@ -205,7 +205,7 @@ nav a:hover::before {
   
 }
 .pic3 {
-  background-image: url("./CD-logo.png");
+  background-image: url("./horiseon-mod.PNG");
   height: 142px;
   width: 157px;
   background-size: cover;
